@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Item {
+class Item: Codable {
     //Properties
-    var task : String
+    var task : String = ""
     var done : Bool = false
     
     init(task: String) {
