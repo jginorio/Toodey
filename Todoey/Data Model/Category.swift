@@ -13,6 +13,7 @@ class Category : Object {
     
     //Properties
     @objc dynamic var name: String = ""
+    @objc dynamic var colour: String = ""
     
     //Inverse relationship with the item 
     let items = List<Item>()
